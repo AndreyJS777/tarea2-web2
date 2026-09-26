@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('../imagenes/banner6.jpg');
+    background-position: center;
+    background-size: cover;
+
+    /* instrucciones solicitadas en el reto */
+    background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: multiply;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    height: 520px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoBanner {
+    color: #fff;
+}
+
+.textoBanner h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.textoBanner p {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.textoBanner .btn {
+    margin: 5px;
+}

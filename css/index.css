@@ -1,0 +1,31 @@
+.fondo1 {
+    background-color: #212529;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+body {
+    min-height: 100vh; /*hace que la página tenga como mínimo toda la altura de la pantalla.*/
+    display: flex;
+    flex-direction: column; /*coloca header, secciones y footer verticalmente.*/
+}
+
+/* navegación inferior de todos los retos */
+.navegacionRetos {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: auto; /*empuja el footer hasta abajo cuando sobra espacio.*/
+}
+
+footer {
+    background-color: #212529;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}

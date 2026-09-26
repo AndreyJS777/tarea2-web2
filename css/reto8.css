@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.banner8 {
+    background-image: url('../imagenes/banner8.jpg');
+    background-position: center;
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: multiply;
+
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contenidoBanner {
+    color: #fff;
+}
+
+.contenidoBanner h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contenidoBanner p {
+    font-size: 16px;
+    max-width: 650px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenidoBanner .btn {
+    margin-right: 10px;
+}

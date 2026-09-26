@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.tituloReto5 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.columna1 {
+    background-color: #ff1717;
+    color: #fff;
+}
+
+.columna2 {
+    background-color: #84d000;
+    color: #fff;
+}
+
+.columna3 {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.columna1 h3,
+.columna2 h3,
+.columna3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.columna1 p,
+.columna2 p,
+.columna3 p {
+    font-size: 16px;
+}

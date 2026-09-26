@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.tituloReto3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #212529;
+    margin-top: auto;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+.detalleTitulo {
+    text-align: center;
+    padding: 8px 0 15px 0;
+}
+
+.linea {
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background-color: #dc3545;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.iconoTitulo {
+    display: inline-block;
+    color: #0d6efd;
+    font-size: 14px;
+    vertical-align: middle;
+}

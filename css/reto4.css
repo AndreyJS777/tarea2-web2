@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #212529;
+    color: #fff;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+.tituloReto4 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 70px;
+    color: #42bfc2;
+}
+
+section h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #212529;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
